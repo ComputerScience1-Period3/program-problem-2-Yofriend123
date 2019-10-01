@@ -27,7 +27,7 @@ void main() {
 
 
 	// User Queries
-	cout << "How many classes are you in? (answer with number) : ";
+	cout << "How many classes are you in? (answer with an Int) : ";
 	cin >> number_of_classes;
 	cout << "What lunch do you have on A days? ( A, B, C, D) : ";
 	cin >> lunch_on_Adays;
@@ -41,6 +41,4 @@ void main() {
 	cout << "You have " << lunch_on_Adays << " lunch on A days." << endl;
 	cout << boolalpha << "It is " << pet << " that you have a pet." << endl;
 	cout << "Your weight is : " << weight << " pounds" << endl;
-
-	pause();
 }
